@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E42DB24E1C5A913700F8BBBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42DB24D1C5A913700F8BBBE /* AppDelegate.swift */; };
-		E42DB2501C5A913700F8BBBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42DB24F1C5A913700F8BBBE /* ViewController.swift */; };
 		E42DB2531C5A913700F8BBBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42DB2511C5A913700F8BBBE /* Main.storyboard */; };
 		E42DB2551C5A913700F8BBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42DB2541C5A913700F8BBBE /* Assets.xcassets */; };
 		E42DB2581C5A913700F8BBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42DB2561C5A913700F8BBBE /* LaunchScreen.storyboard */; };
 		E42DB2631C5A913700F8BBBE /* The_Point_iPhone_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42DB2621C5A913700F8BBBE /* The_Point_iPhone_AppTests.swift */; };
 		E42DB26E1C5A913700F8BBBE /* The_Point_iPhone_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42DB26D1C5A913700F8BBBE /* The_Point_iPhone_AppUITests.swift */; };
+		E42DB27C1C5A915D00F8BBBE /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42DB27B1C5A915D00F8BBBE /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		E42DB24A1C5A913700F8BBBE /* The Point iPhone App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Point iPhone App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42DB24D1C5A913700F8BBBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E42DB24F1C5A913700F8BBBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E42DB2521C5A913700F8BBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E42DB2541C5A913700F8BBBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E42DB2571C5A913700F8BBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		E42DB2691C5A913700F8BBBE /* The Point iPhone AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Point iPhone AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42DB26D1C5A913700F8BBBE /* The_Point_iPhone_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Point_iPhone_AppUITests.swift; sourceTree = "<group>"; };
 		E42DB26F1C5A913700F8BBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42DB27B1C5A915D00F8BBBE /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				E42DB24D1C5A913700F8BBBE /* AppDelegate.swift */,
-				E42DB24F1C5A913700F8BBBE /* ViewController.swift */,
+				E42DB27B1C5A915D00F8BBBE /* MainVC.swift */,
 				E42DB2511C5A913700F8BBBE /* Main.storyboard */,
 				E42DB2541C5A913700F8BBBE /* Assets.xcassets */,
 				E42DB2561C5A913700F8BBBE /* LaunchScreen.storyboard */,
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42DB2501C5A913700F8BBBE /* ViewController.swift in Sources */,
 				E42DB24E1C5A913700F8BBBE /* AppDelegate.swift in Sources */,
+				E42DB27C1C5A915D00F8BBBE /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
